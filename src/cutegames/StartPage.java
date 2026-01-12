@@ -29,9 +29,8 @@ public class StartPage extends javax.swing.JFrame {
         setTitle("Cute Games!");
         setBackground(new java.awt.Color(255, 228, 248));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        setPreferredSize(new java.awt.Dimension(584, 450));
 
-        jButton1.setText("Advinhação");
+        jButton1.setText("Adivinhação");
         jButton1.setMargin(new java.awt.Insets(2, 5, 3, 5));
         jButton1.setMaximumSize(new java.awt.Dimension(120, 40));
         jButton1.setMinimumSize(new java.awt.Dimension(120, 40));
@@ -160,6 +159,7 @@ public class StartPage extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        new GuessGame();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
